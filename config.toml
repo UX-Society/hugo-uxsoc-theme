@@ -1,0 +1,100 @@
+baseURL = ""
+languageCode = "en-us"
+title = "User Experience Society"
+theme = "hugo-uxsoc-theme"
+
+[params]
+    theme_color = "#008ED4"
+    description = ""
+    description_photo = ""
+    favicon = "img/favicon.ico"
+    logo = "img/uxsoc_logo_full.png"
+    email = ""
+    facebook = ""
+    twitter = ""
+    dribbble = ""
+    linkedin = ""
+    medium = ""
+
+[params.home]
+
+    [params.home.nav]
+        enable = true
+
+    [params.home.hero]
+        enable = true
+        org_name = "User Experience Society"
+        title = "We make design leaders"
+        call_to_action = "Start Your Journey"
+
+    [params.home.mission]
+        enable = true
+        mission = "User Experience Society aims to guide the design leaders of tomorrow, creating products and services that will make the world a better place"
+
+    [params.home.site_explorer]
+        enable = true
+
+    [params.home.footer]
+        enable = true
+
+[params.community]
+
+    [params.community.nav]
+        enable = true
+
+    [params.community.hero]
+        enable = true
+        subtitle = "UX SOCIETY COMMUNITY"
+        title = "Learn and grow with an amazing community"
+
+    [params.community.events]
+        enable = true
+        subtitle = "Events"
+        title = "Coming up next"
+
+    [params.community.stories]
+        enable = true
+
+    [params.community.job_board]
+        enable = true
+
+    [params.community.resources]
+        enable = true
+
+    [params.community.chapters]
+        enable = true
+
+    [params.community.footer]
+        enable = true
+
+[params.work]
+
+    [params.work.nav]
+        enable = true
+
+    [params.work.hero]
+        enable = true
+        subtitle = "Work with UX Society"
+        title = "Crafting the best experiences to achieve your goals"
+        call_to_action = "Contact Us"
+
+    [params.work.process]
+        enable = true
+        subtitle = "Process"
+        title = "The method to our madness"
+
+    [params.work.case_studies]
+        enable = true
+
+    [params.work.services]
+        enable = true
+
+    [params.work.clientele]
+        enable = true
+
+    [params.work.footer]
+        enable = true
+
+[params.footer]
+    made_by = "Passionately made by User Experience Society"
+

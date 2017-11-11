@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "home/head.html" . }}
+    </head>
+    <body>
+        <div>
+            {{ if .Site.Params.home.nav.enable }}
+            {{ partial "nav.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.home.hero.enable }}
+            {{ partial "home/hero.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.home.mission.enable }}
+            {{ partial "home/mission.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.home.site_explorer.enable }}
+            {{ partial "home/site_explorer.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.home.footer.enable }}
+            {{ partial "footer.html" . }}
+            {{ end }}
+        </div>
+
+        {{ partial "scripts.html" . }}
+
+    </body>
+</html>

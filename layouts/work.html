@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    <head>
+        {{ partial "work/head.html" . }}
+    </head>
+    <body>
+        <div>
+            {{ if .Site.Params.work.nav.enable }}
+            {{ partial "nav.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.work.process.enable }}
+            {{ partial "work/process.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.work.case_studies.enable }}
+            {{ partial "work/case_studies.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.work.services.enable }}
+            {{ partial "work/services.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.work.clientele.enable }}
+            {{ partial "work/clientele.html" . }}
+            {{ end }}
+
+            {{ if .Site.Params.work.footer.enable }}
+            {{ partial "footer.html" . }}
+            {{ end }}
+        </div>
+
+        {{ partial "scripts.html" . }}
+
+    </body>
+</html>
