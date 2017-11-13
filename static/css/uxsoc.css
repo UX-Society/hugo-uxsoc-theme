@@ -16,10 +16,17 @@
 
 .proximareg {
     font-family: 'ProximaNovaReg', sans-serif;
-    font-size: 23.54px;
+    font-size: 16px;
 }
 
-.nav-link-style {
-    padding: .5rem 2.6rem;
-    color: #3B3E42;
+@media (min-width: 992px) {
+    .navbar-nav > li {
+        padding: .5rem 2.6rem;
+        color: #3B3E42;
+    }
+    .navbar-positioning {
+        margin-top: 3.39rem;
+        margin-left: 6.37rem;
+        margin-right: 6.37rem;
+    }
 }
