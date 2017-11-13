@@ -41,3 +41,5 @@ to generate a new case study post. To find the post, you can go to `content/mypo
 ## Credits
 
 Credits for this theme go to Laura Ang, Jiggy Villanueva, and their team at the User Experience Society Ateneo de Manila University (UXSoc ADMU). Maraming matsala for design work.
+
+Proxima Nova web fonts borrowed from: https://github.com/elliakou/proxima-nova-web-fonts
