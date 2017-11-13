@@ -1,11 +1,11 @@
-@font-face {
-    font-family: 'ProximaNovaReg';
-    src: url('fonts/ProximaNovaReg.otf') format('otf');
+.proximareg {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    font-size: 16px;
 }
 
-@font-face {
-    font-family: 'ProximaNovaSBold';
-    src: url('fonts/ProximaNovaSbold.otf') format('otf');
+.proximasbold {
+    font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
+    font-size: 16px;
 }
 
 .navbar-positioning {
@@ -14,15 +14,21 @@
     margin-right: 6.37rem;
 }
 
-.proximareg {
-    font-family: 'ProximaNovaReg', sans-serif;
-    font-size: 16px;
+.btn-uxsoc {
+    color: #fff;
+    background-color: #008ed4;
+    border-color: #008ed4;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3B3E42;
+    font-size: 23.54px;
 }
 
 @media (min-width: 992px) {
     .navbar-nav > li {
         padding: .5rem 2.6rem;
-        color: #3B3E42;
     }
     .navbar-positioning {
         margin-top: 3.39rem;
