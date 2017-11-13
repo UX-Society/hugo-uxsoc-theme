@@ -1,3 +1,14 @@
-<h2>{{ .Site.Params.Home.Hero.org_name }}</h2>
-<h1>{{ .Site.Params.Home.Hero.Title }}</h1>
-<a class="btn btn-primary btn-uxsoc proximasbold" href="#" role="button">{{ .Site.Params.Home.Hero.call_to_action }}</a>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="hero-pos">
+                <h2 class="hero-subtitle">{{ .Site.Params.Home.Hero.org_name }}</h2>
+                <h1 class="hero-title">{{ .Site.Params.Home.Hero.Title | safeHTML }}</h1>
+                <a class="btn btn-primary btn-uxsoc hero-cta align-self-center proximasbold" href="#" role="button">{{ .Site.Params.Home.Hero.call_to_action }}</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ .Site.BaseURL }}/img/hero.png" style="zoom:150%;transform:translateY(50px);">
+        </div>
+    </div>
+</div>

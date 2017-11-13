@@ -21,6 +21,10 @@
     border-radius: 8px;
 }
 
+.hero-cta {
+    padding: 1rem 2rem;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #3B3E42;
     font-size: 23.54px;
@@ -35,4 +39,33 @@
         margin-left: 6.37rem;
         margin-right: 6.37rem;
     }
+}
+
+h2 {
+    font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #B3BCC4;
+    text-transform: capitalize;
+    letter-spacing: 5.12px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 75px;
+    line-height: 89px;
+    font-weight: 500;
+}
+
+.hero-pos {
+    margin-left: 150px;
+    margin-top: 160px;
+}
+
+.hero-pos .hero-subtitle {
+    margin-bottom: 25px;
+}
+
+.hero-pos .hero-title {
+    margin-bottom: 84px;
 }

@@ -5,13 +5,15 @@
     </head>
     <body>
         <div>
-            {{ if .Site.Params.home.nav.enable }}
-            {{ partial "nav.html" . }}
-            {{ end }}
+            <header>
+                {{ if .Site.Params.home.nav.enable }}
+                {{ partial "nav.html" . }}
+                {{ end }}
 
-            {{ if .Site.Params.home.hero.enable }}
-            {{ partial "home/hero.html" . }}
-            {{ end }}
+                {{ if .Site.Params.home.hero.enable }}
+                {{ partial "home/hero.html" . }}
+                {{ end }}
+            </header>
 
             {{ if .Site.Params.home.mission.enable }}
             {{ partial "home/mission.html" . }}

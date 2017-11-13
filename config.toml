@@ -23,7 +23,7 @@ theme = "hugo-uxsoc-theme"
 
     [params.home.hero]
         enable = true
-        org_name = "User Experience Society"
+        org_name = "USER EXPERIENCE SOCIETY"
         title = "We make design leaders"
         call_to_action = "START YOUR JOURNEY"
 
