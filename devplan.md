@@ -63,6 +63,41 @@ cd ../..
 hugo server
 ```
 
+## Timeline and Task Assignment
+
+*19 DEC 2017*
+Laura says we have until mid-Jan to complete this so we have just under a month to execute. The first thing is to translate whatever is on [ADMU's repo](https://github.com/LevyMedinaII/ux-soc-website) onto [this repo](https://github.com/UXSoc/hugo-uxsoc-theme).
+
+Then we will code out each section accordingly from [Jiggy's spec](https://www.figma.com/file/Vf6nbxqkHCDFzFrYn2z3Ux5W/UXSoc-Website):
+
+**Home Section**
+[] Hero
+[] Quote Section
+[] Community and Work Cards
+[] Footer
+
+**Community Section**
+[] Hero
+[] Coming up next Section
+[] Event Cards
+[] Member Stories
+[] Job Board
+[] Resources
+[] Chapters
+
+**Work Section**
+[] Hero
+[] Method to our Madness Section (Carousel Section)
+[] Case Studies Section
+[] What we can do for you section
+[] Clientele Section
+
+#### BONUS: How we used Hugo to model Alexis' portfolio site
+
+If you need a more concrete example of how we used Hugo to our advantage, see how we made Alexis' website in Hugo here: https://github.com/xaviablaza/hugo-lodi-theme
+
+Setup instructions are in the README.md.
+
 ## Team
 - ChapmanU
   - Xavi Ablaza
