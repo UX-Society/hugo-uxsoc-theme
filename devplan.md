@@ -71,26 +71,26 @@ Laura says we have until mid-Jan to complete this so we have just under a month 
 Then we will code out each section accordingly from [Jiggy's spec](https://www.figma.com/file/Vf6nbxqkHCDFzFrYn2z3Ux5W/UXSoc-Website):
 
 **Home Section**
-- [] Hero
-- [] Quote Section
-- [] Community and Work Cards
-- [] Footer
+- [ ] Hero
+- [ ] Quote Section
+- [ ] Community and Work Cards
+- [ ] Footer
 
 **Community Section**
-- [] Hero
-- [] Coming up next Section
-- [] Event Cards
-- [] Member Stories
-- [] Job Board
-- [] Resources
-- [] Chapters
+- [ ] Hero
+- [ ] Coming up next Section
+- [ ] Event Cards
+- [ ] Member Stories
+- [ ] Job Board
+- [ ] Resources
+- [ ] Chapters
 
 **Work Section**
-- [] Hero
-- [] Method to our Madness Section (Carousel Section)
-- [] Case Studies Section
-- [] What we can do for you section
-- [] Clientele Section
+- [ ] Hero
+- [ ] Method to our Madness Section (Carousel Section)
+- [ ] Case Studies Section
+- [ ] What we can do for you section
+- [ ] Clientele Section 
 
 #### BONUS: How we used Hugo to model Alexis' portfolio site
 
