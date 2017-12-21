@@ -1,4 +1,4 @@
-/*!
+@import url(https://fonts.googleapis.com/css?family=Rubik:500);/*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -13767,4 +13767,77 @@ html {
   .align-self-xl-stretch {
     align-self: stretch !important;
   }
+}
+
+.proximareg {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-size: 16px;
+}
+
+.proximasbold {
+  font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
+  font-size: 16px;
+}
+
+.navbar-positioning {
+  margin-top: 3.39rem;
+  margin-left: 6.37rem;
+  margin-right: 6.37rem;
+}
+
+.btn-uxsoc {
+  color: #fff;
+  background-color: #008ed4;
+  border-color: #008ed4;
+  border-radius: 8px;
+}
+
+.hero-cta {
+  padding: 1rem 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3B3E42;
+  font-size: 23.54px;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav > li {
+    padding: .5rem 2.6rem;
+  }
+
+  .navbar-positioning {
+    margin-top: 3.39rem;
+    margin-left: 6.37rem;
+    margin-right: 6.37rem;
+  }
+}
+
+h2 {
+  font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: #B3BCC4;
+  text-transform: capitalize;
+  letter-spacing: 5.12px;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 75px;
+  line-height: 89px;
+  font-weight: 500;
+}
+
+.hero-pos {
+  margin-left: 150px;
+  margin-top: 160px;
+}
+
+.hero-pos .hero-subtitle {
+  margin-bottom: 25px;
+}
+
+.hero-pos .hero-title {
+  margin-bottom: 84px;
 }

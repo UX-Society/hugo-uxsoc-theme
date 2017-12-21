@@ -5,13 +5,13 @@
 @import '~modularscale-sass/stylesheets/modularscale';
 
 // Project Variables
-//@import "variable";
+@import "variable";
 
 // Fonts
-//@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
 
-// Base
-//@import "base";
+// Page-specific scss
+@import "home";
 
 // Title card
 //@import "section/hero";
