@@ -17,7 +17,6 @@
 }
 
 #mission-section {
-  width: 100%;
   background-color: $uxsoc-blue;
   height: 400px;
   display: flex;
@@ -37,7 +36,9 @@
 }
 
 #home-cards {
-
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-color: $uxsoc-offwhite;
 }
 
 /* Contact Us */
