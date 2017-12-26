@@ -1,6 +1,6 @@
 $uxsoc-blue: #008ed4;
-$hero-subtitle: #B3BCC4;
-$hero-title: #20252B;
+$subtitle-color: #B3BCC4;
+$title-color: #20252B;
 @mixin proximanova-semibold {
   font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
 }
@@ -15,4 +15,10 @@ $hero-title: #20252B;
 }
 @mixin proximanova-black {
   font-family: 'proxima_nova_altblack', Georgia, sans-serif;
+}
+@mixin rubik {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

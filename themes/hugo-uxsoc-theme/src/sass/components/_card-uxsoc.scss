@@ -1,0 +1,16 @@
+.card {
+  &.-uxsoc {
+    >.card-body {
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    }
+    >.card-body > .card-title {
+      @include rubik;
+      font-size: 42.017px;
+      text-align: center;
+      color: $title-color;
+
+      /* Avoid positioning in component files. */
+      margin-bottom: 61px;
+    }
+  }
+}

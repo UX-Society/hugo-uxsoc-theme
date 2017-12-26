@@ -1,25 +1,17 @@
 .hero-text {
   > .title {
-    font-family: 'Rubik', sans-serif;
+    @include rubik;
     font-size: 75px;
     line-height: 89px;
-    color: $hero-title;
+    color: $title-color;
     font-weight: 500;
   }
   > .subtitle {
     @include proximanova-semibold;
     font-size: 16px;
     line-height: 16px;
-    color: $hero-subtitle;
+    color: $subtitle-color;
     text-transform: capitalize;
     letter-spacing: 5.12px;
-  }
-  > .cta {
-    @include proximanova-semibold;
-    color: $white;
-    background-color: $uxsoc-blue;
-    border-color: $uxsoc-blue;
-    border-radius: 8px;
-    padding: 1rem 2rem;
   }
 }
