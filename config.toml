@@ -31,7 +31,7 @@ theme = "hugo-uxsoc-theme"
         enable = true
         mission = "User Experience Society aims to guide the design leaders of tomorrow, creating products and services that will make the world a better place"
 
-    [params.home.site_explorer]
+    [params.home.cards]
         enable = true
 
     [params.home.footer]
