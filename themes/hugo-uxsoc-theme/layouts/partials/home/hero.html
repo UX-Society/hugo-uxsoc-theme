@@ -1,14 +1,16 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="hero-text -home">
-                <h2 class="subtitle">{{ .Site.Params.Home.Hero.org_name }}</h2>
-                <h1 class="title">{{ .Site.Params.Home.Hero.Title | safeHTML }}</h1>
-                <a class="btn btn-primary cta align-self-center" href="#" role="button">{{ .Site.Params.Home.Hero.call_to_action }}</a>
+<section id="hero-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="hero-text -home">
+                    <h2 class="subtitle">{{ .Site.Params.Home.Hero.org_name }}</h2>
+                    <h1 class="title">{{ .Site.Params.Home.Hero.Title | safeHTML }}</h1>
+                    <a class="btn btn-primary cta align-self-center" href="#" role="button">{{ .Site.Params.Home.Hero.call_to_action }}</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!--<img src="{{ .Site.BaseURL }}/img/hero.png" style="zoom:150%;transform:translateY(50px);">-->
             </div>
         </div>
-        <div class="col-md-6">
-            <!--<img src="{{ .Site.BaseURL }}/img/hero.png" style="zoom:150%;transform:translateY(50px);">-->
-        </div>
     </div>
-</div>
+</section>

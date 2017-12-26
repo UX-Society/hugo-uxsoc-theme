@@ -37,3 +37,28 @@
     }
   }
 }
+
+#hero-section {
+  width: 100%;
+  height: 100vh;
+}
+
+#mission-section {
+  width: 100%;
+  background-color: $uxsoc-blue;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .text {
+    @include proximanova;
+    padding: 15px;
+    margin: auto;
+    color: $white;
+    max-width: 45%;
+    text-align: center;
+    line-height: 61px;
+    font-size: 34.639px;
+  }
+}

@@ -13810,6 +13810,31 @@ html {
   margin-bottom: 84px;
 }
 
+#hero-section {
+  width: 100%;
+  height: 100vh;
+}
+
+#mission-section {
+  width: 100%;
+  background-color: #008ed4;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission-section .text {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  padding: 15px;
+  margin: auto;
+  color: #fff;
+  max-width: 45%;
+  text-align: center;
+  line-height: 61px;
+  font-size: 34.639px;
+}
+
 .hero-text > .title {
   font-family: 'Rubik', sans-serif;
   font-size: 75px;
