@@ -1,0 +1,16 @@
+<section id="hero-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="hero-text -home">
+                    <h2 class="subtitle">{{ .Site.Params.Work.Hero.Subtitle }}</h2>
+                    <h1 class="title">{{ .Site.Params.Work.Hero.Title | safeHTML }}</h1>
+                    <a class="btn -uxsoc text-center" href="#" role="button">{{ .Site.Params.Work.Hero.call_to_action }}</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!--<img src="{{ .Site.BaseURL }}/img/hero.png" style="zoom:150%;transform:translateY(50px);">-->
+            </div>
+        </div>
+    </div>
+</section>

@@ -9,6 +9,10 @@
             {{ partial "nav.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.work.hero.enable }}
+            {{ partial "work/hero.html" . }}
+            {{ end }}
+
             {{ if .Site.Params.work.process.enable }}
             {{ partial "work/process.html" . }}
             {{ end }}

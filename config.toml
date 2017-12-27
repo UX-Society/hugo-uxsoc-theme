@@ -74,9 +74,9 @@ theme = "hugo-uxsoc-theme"
 
     [params.work.hero]
         enable = true
-        subtitle = "Work with UX Society"
+        subtitle = "WORK WITH UX SOCIETY"
         title = "Crafting the best experiences to achieve your goals"
-        call_to_action = "Contact Us"
+        call_to_action = "CONTACT US"
 
     [params.work.process]
         enable = true
