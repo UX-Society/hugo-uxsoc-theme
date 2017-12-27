@@ -80,7 +80,7 @@ theme = "hugo-uxsoc-theme"
 
     [params.work.process]
         enable = true
-        subtitle = "Process"
+        subtitle = "PROCESS"
         title = "The method to our madness"
 
     [params.work.case_studies]
