@@ -90,7 +90,12 @@ Then we will code out each section accordingly from [Jiggy's spec](https://www.f
 - [ ] Method to our Madness Section (Carousel Section)
 - [ ] Case Studies Section
 - [ ] What we can do for you section
-- [ ] Clientele Section 
+- [ ] Clientele Section
+
+## Using SASS
+
+In this project we're using SASS as our css preprocessor. We also use [rscss](rscss.io) to format our css. If you go into `src/sass` you will find page-level scss files at the root and you will find a `components` folder.
+The `components` folder is where we place UXSoc related components like uxsoc cards, the uxsoc styled button, etc.. Try to stick to one component per file. Every file must be added in the `style.scss` folder.
 
 #### BONUS: How we used Hugo to model Alexis' portfolio site
 
