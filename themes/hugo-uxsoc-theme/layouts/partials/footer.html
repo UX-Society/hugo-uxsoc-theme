@@ -4,10 +4,10 @@
         <div class="upper">
             <div class="contact-upperleft">
                 <p class="upperleft-text">
-                    Get the lastest <br> updates
+                    {{ .Site.Params.Footer.Title | safeHTML }}
                 </p>
                 <p class="upperleft-text2">
-                    Sign up for our weekly newsletter
+                    {{ .Site.Params.Footer.Subtitle }}
                 </p>
             </div>
             <div class="contact-upperright">
@@ -18,7 +18,7 @@
 
         <div class="middle">
             <div class="header-logo">
-                IMG
+                <img src="{{ .Site.BaseURL }}/img/uxsoc_logo_full.png" style="width: 160px;">
             </div>
             <div class="middleright">
                 <div class="middleright-top-responsive">
@@ -71,7 +71,7 @@
         <div class="bottom">
             <div class="bottomright">
                 <p class="bottomright-text">
-                    Passionately made by <span class="footer-link"><a href="">User Experience Society</a></span>
+                    {{ .Site.Params.Footer.made_by | safeHTML }}
                 </p>
             </div>
             <div class="bottomleft">

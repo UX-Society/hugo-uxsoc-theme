@@ -13812,8 +13812,6 @@ html {
   background-color: #EEF1F6;
 }
 
-/* Contact Us */
-
 #contact-us {
   max-width: 100%;
   height: auto;
@@ -13902,7 +13900,6 @@ html {
   min-width: 200px;
   padding: 15px 30px;
   border-radius: 5px;
-  border: none;
   border: 1px solid gray;
   margin-right: 10px;
 }
@@ -13935,6 +13932,10 @@ html {
 
 .middleright-links nav ul {
   list-style: none;
+}
+
+.bottomright-text {
+  color: #bdbdbd;
 }
 
 .hero-text > .title {
