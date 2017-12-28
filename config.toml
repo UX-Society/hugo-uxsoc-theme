@@ -49,7 +49,7 @@ theme = "hugo-uxsoc-theme"
 
     [params.community.events]
         enable = true
-        subtitle = "Events"
+        subtitle = "EVENTS"
         title = "Coming up next"
 
     [params.community.stories]

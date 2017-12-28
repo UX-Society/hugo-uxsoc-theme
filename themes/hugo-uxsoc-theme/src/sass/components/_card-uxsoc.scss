@@ -1,5 +1,5 @@
 .card {
-  &.-uxsoc {
+  &.-home {
     >.card-body {
       box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
     }
@@ -11,6 +11,68 @@
 
       /* Avoid positioning in component files. */
       margin-bottom: 61px;
+    }
+  }
+  &.-event {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    .event-card {
+      >.description {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        >.title {
+          @include rubik;
+          font-size: 42px;
+          color: $title-color;
+        }
+        >.blurb {
+          @include proximanova;
+          font-size: 16px;
+          line-height: 28px;
+          color: $black;
+        }
+      }
+      >.date {
+        border-left: 1px solid $border-gray;
+        >.text {
+          padding-top: 20px;
+          padding-bottom: 20px;
+
+          /* Vertical centering */
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+
+          @include proximanova;
+          font-size: 23px;
+          color: $black;
+
+          /* Avoid positioning in component files. */
+          height: 100%;
+
+          >.bold {
+            @include rubik;
+            font-size: 50px;
+            color: $black;
+          }
+        }
+      }
+    }
+
+    >.card-footer {
+      background-color: $uxsoc-blue;
+      border-radius: 0 0 8px 8px;
+      border-color: $uxsoc-blue;
+      @include rubik;
+      font-size: 16px;
+      color: $white;
+      text-decoration: none;
+
+      /* Avoid positioning in component files . */
+      padding-top: 35px;
+      padding-bottom: 35px;
     }
   }
 }

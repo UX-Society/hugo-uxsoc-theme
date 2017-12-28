@@ -13966,11 +13966,11 @@ html {
   padding: 1rem 2rem;
 }
 
-.card.-uxsoc > .card-body {
+.card.-home > .card-body {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
 }
 
-.card.-uxsoc > .card-body > .card-title {
+.card.-home > .card-body > .card-title {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -13980,6 +13980,75 @@ html {
   color: #20252B;
   /* Avoid positioning in component files. */
   margin-bottom: 61px;
+}
+
+.card.-event {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.card.-event .event-card > .description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card.-event .event-card > .description > .title {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 42px;
+  color: #20252B;
+}
+
+.card.-event .event-card > .description > .blurb {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+}
+
+.card.-event .event-card > .date {
+  border-left: 1px solid #bdbdbd;
+}
+
+.card.-event .event-card > .date > .text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* Vertical centering */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-size: 23px;
+  color: #000;
+  /* Avoid positioning in component files. */
+  height: 100%;
+}
+
+.card.-event .event-card > .date > .text > .bold {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 50px;
+  color: #000;
+}
+
+.card.-event > .card-footer {
+  background-color: #008ed4;
+  border-radius: 0 0 8px 8px;
+  border-color: #008ed4;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  /* Avoid positioning in component files . */
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .proximareg {
