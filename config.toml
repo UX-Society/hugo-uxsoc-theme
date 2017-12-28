@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "https://laughing-brattain-01ecb0.netlify.com/"
 languageCode = "en-us"
 title = "User Experience Society"
 theme = "hugo-uxsoc-theme"
