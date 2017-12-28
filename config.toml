@@ -98,5 +98,5 @@ theme = "hugo-uxsoc-theme"
 [params.footer]
     title = "Get the latest <br/>updates"
     subtitle = "Sign up for our weekly newsletter"
-    made_by = "Passionately made by <span class="footer-link"><a href="">User Experience Society</a></span>"
+    made_by = "Passionately made by <span class=\"footer-link\"><a href=\"\">User Experience Society</a></span>"
 
