@@ -13801,9 +13801,10 @@ html {
   margin: auto;
   color: #fff;
   max-width: 45%;
+  min-width: 40%;
   text-align: center;
   line-height: 61px;
-  font-size: 34.639px;
+  font-size: 2.16136em;
 }
 
 #home-cards {
@@ -13881,7 +13882,7 @@ html {
 }
 
 .upperleft-text {
-  font-size: 25px;
+  font-size: 1.78256em;
   font-weight: bold;
 }
 

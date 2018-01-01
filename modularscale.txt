@@ -47,3 +47,24 @@ community:
 42.02px home cards size, event card heading
 50px community hero heading size, event card heading size
 75px hero heading size
+
+initial candidate ratio 1.414
+16px ms(0)
+23px ms(1)
+28.56px footer only
+34.64px ms(2)
+42px ms(3)
+50px ms(4)
+75px ms(5)
+
+
+1.2125 fits the ratio in the spec the best
+16px ms(0) BASE SIZE
+19.4px ms(1) UNUSED
+23.522px ms(2) navigational size
+28.521px ms(3) footer heading size
+34.582px ms(4) mission heading size
+41.93px ms(5) home cards size, event card heading size
+50.841px ms(6) community hero heading size, event card heading size
+61.644px ms(7) UNUSED
+74.744px ms(8) home hero size
