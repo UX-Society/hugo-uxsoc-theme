@@ -1,0 +1,49 @@
+footer
+base: 16px
+heading: 28.56px
+ratio: 0.560224
+
+cards
+base: 16px
+heading: 42.02px
+ratio: 0.38077
+
+between 28.56px and 42.02px is 0.67 ratio
+
+mission
+base: 34.64px
+
+nav
+base: 23.54px
+
+hero:
+base: 16px
+heading: 74.99px
+
+COMMUNITY
+base: 16px
+heading: 50px
+
+event cards:
+base: 16px
+heading: 50px
+
+cardheading 42.02px
+base: 16px
+date: 23px
+50px
+
+community:
+16px base
+50px heading
+
+
+
+16px base size
+23px date in event card size
+23.54px navigational size
+28.56px footer heading size
+34.64px mission heading size
+42.02px home cards size, event card heading
+50px community hero heading size, event card heading size
+75px hero heading size
