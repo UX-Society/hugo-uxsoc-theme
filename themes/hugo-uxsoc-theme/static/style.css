@@ -13800,11 +13800,37 @@ html {
   padding: 15px;
   margin: auto;
   color: #fff;
-  max-width: 45%;
+  max-width: 75%;
   min-width: 40%;
   text-align: center;
-  line-height: 61px;
-  font-size: 2.16136em;
+  line-height: 41px;
+  font-size: 1.2125em;
+}
+
+@media (min-width: 680px) {
+  #mission-section .text {
+    line-height: 51px;
+  }
+}
+
+@media (min-width: 772px) {
+  #mission-section .text {
+    font-size: 1.47016em;
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 1143px) {
+  #mission-section .text {
+    font-size: 1.78256em;
+    line-height: 61px;
+  }
+}
+
+@media (min-width: 1368px) {
+  #mission-section .text {
+    font-size: 2.16136em;
+  }
 }
 
 #home-cards {
