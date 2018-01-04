@@ -1,13 +1,13 @@
 .hero-text {
   > .title {
     @include rubik;
-    font-size: 75px;
+    font-size: ms(8);
     line-height: 89px;
     color: $title-color;
   }
   > .subtitle {
     @include proximanova-semibold;
-    font-size: 16px;
+    font-size: ms(0);
     line-height: 16px;
     color: $subtitle-color;
     text-transform: capitalize;

@@ -5,7 +5,7 @@
     }
     >.card-body > .card-title {
       @include rubik;
-      font-size: 42.017px;
+      font-size: ms(5);
       text-align: center;
       color: $title-color;
 
@@ -24,12 +24,12 @@
 
         >.title {
           @include rubik;
-          font-size: 42px;
+          font-size: ms(5);
           color: $title-color;
         }
         >.blurb {
           @include proximanova;
-          font-size: 16px;
+          font-size: ms(0);
           line-height: 28px;
           color: $black;
         }
@@ -46,7 +46,7 @@
           flex-direction: column;
 
           @include proximanova;
-          font-size: 23px;
+            font-size: ms(2);
           color: $black;
 
           /* Avoid positioning in component files. */
@@ -54,7 +54,7 @@
 
           >.bold {
             @include rubik;
-            font-size: 50px;
+            font-size: ms(6);
             color: $black;
           }
         }
@@ -66,7 +66,7 @@
       border-radius: 0 0 8px 8px;
       border-color: $uxsoc-blue;
       @include rubik;
-      font-size: 16px;
+      font-size: ms(0);
       color: $white;
       text-decoration: none;
 

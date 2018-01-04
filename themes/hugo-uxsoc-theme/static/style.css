@@ -13944,14 +13944,14 @@ html {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 75px;
+  font-size: 4.67147em;
   line-height: 89px;
   color: #20252B;
 }
 
 .hero-text > .subtitle {
   font-family: 'proxima_nova_ltsemibold', Georgia, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 16px;
   color: #B3BCC4;
   text-transform: capitalize;
@@ -13976,7 +13976,7 @@ html {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 42.017px;
+  font-size: 2.62065em;
   text-align: center;
   color: #20252B;
   /* Avoid positioning in component files. */
@@ -13998,13 +13998,13 @@ html {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 42px;
+  font-size: 2.62065em;
   color: #20252B;
 }
 
 .card.-event .event-card > .description > .blurb {
   font-family: 'Proxima Nova', Georgia, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 28px;
   color: #000;
 }
@@ -14021,7 +14021,7 @@ html {
   justify-content: center;
   flex-direction: column;
   font-family: 'Proxima Nova', Georgia, sans-serif;
-  font-size: 23px;
+  font-size: 1.47016em;
   color: #000;
   /* Avoid positioning in component files. */
   height: 100%;
@@ -14032,7 +14032,7 @@ html {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 50px;
+  font-size: 3.17754em;
   color: #000;
 }
 
@@ -14044,7 +14044,7 @@ html {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 16px;
+  font-size: 1em;
   color: #fff;
   text-decoration: none;
   /* Avoid positioning in component files . */
@@ -14054,7 +14054,7 @@ html {
 
 .proximareg {
   font-family: 'Proxima Nova', Georgia, sans-serif;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .navbar-positioning {
@@ -14065,7 +14065,7 @@ html {
 
 .navbar-light .navbar-nav .nav-link {
   color: #3B3E42;
-  font-size: 23px;
+  font-size: 1.47016em;
 }
 
 @media (min-width: 992px) {
