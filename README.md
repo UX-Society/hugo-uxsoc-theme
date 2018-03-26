@@ -6,7 +6,7 @@ https://laughing-brattain-01ecb0.netlify.com/
 
 This is basic set-up and assumes that yarn and hugo are already installed, if not check out the devplan.md file
 
-**Install the needed packages for the server/yarn compiler in */themes/hugo-uxsoc-theme* **
+**Install the needed packages for the server/yarn compiler in _/themes/hugo-uxsoc-theme_ **
 `npm install`
 
 **Run hugo server in root: */* **
