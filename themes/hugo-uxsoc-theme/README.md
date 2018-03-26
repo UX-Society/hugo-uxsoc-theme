@@ -2,7 +2,7 @@
 
 This theme is a Hugo port of [the UXSoc website](https://www.figma.com/file/Vf6nbxqkHCDFzFrYn2z3Ux5W/UXSoc-Website). It is meant to be a theme for other UXSoc chapters to start their own chapter website. Chapters should use this Hugo theme to gain visibility on-campus, help with recruitment, and provide chapter-specific information to members.
 
-![](images/screenshot.png)
+
 
 ## Intended Use
 
