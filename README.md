@@ -48,5 +48,12 @@ Use multiple terminal tabs to conveniently run both these tabs at once
 
 **~/theme.toml** theme template info
 
+#Tip
+
+Use markdown preview to easliy read all the *.md files
+To install: `npm install -g markdown-preview`
+
+Open files with `markdown-preview <filename>`
+
 
  
