@@ -2,7 +2,7 @@ UXSoc Chapter Website Theme for Hugo
 
 https://laughing-brattain-01ecb0.netlify.com/
 
-#Quick Setup
+# Quick Setup
 
 This is basic set-up and assumes that yarn and hugo are already installed, if not check out the devplan.md file
 
@@ -19,7 +19,7 @@ access at http://localhost:1313/
 
 Use multiple terminal tabs to conveniently run both these tabs at once
 
-#File Overview
+# File Overview
 
 **config.toml** contains all the content that the static site generator (hugo) fills into the page dynamically
 
@@ -48,7 +48,7 @@ Use multiple terminal tabs to conveniently run both these tabs at once
 
 **~/theme.toml** theme template info
 
-#Tip
+# Tip
 
 Use markdown preview to easliy read all the *.md files
 To install: `npm install -g markdown-preview`
