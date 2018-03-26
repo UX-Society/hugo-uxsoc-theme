@@ -9,11 +9,11 @@ This is basic set-up and assumes that yarn and hugo are already installed, if no
 **Install the needed packages for the server/yarn compiler in _/themes/hugo-uxsoc-theme_**
 `npm install`
 
-**Run hugo server in root: */* **
+**Run hugo server in root: _/_**
 `hugo server`
 access at http://localhost:1313/ 
 
-**Run yarn to compile SASS into CSS also in */themes/hugo-uxsoc-theme* **
+**Run yarn to compile SASS into CSS also in _/themes/hugo-uxsoc-theme_**
 
 `yarn run watch`
 
