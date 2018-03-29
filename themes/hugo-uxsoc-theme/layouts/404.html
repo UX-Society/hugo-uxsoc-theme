@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    {{ partial "home/head.html" . }}
+</head>
+<body>
+<div>
+    <header>
+        {{ if .Site.Params.home.nav.enable }}
+        {{ partial "nav.html" . }}
+        {{ end }}
+    </header>
+
+    {{ if .Site.Params.error.enable }}
+    {{ partial "error.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.home.footer.enable }}
+    {{ partial "footer.html" . }}
+    {{ end }}
+</div>
+
+{{ partial "scripts.html" . }}
+
+</body>
+</html>
