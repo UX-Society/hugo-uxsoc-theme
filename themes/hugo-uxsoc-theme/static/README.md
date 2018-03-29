@@ -1,7 +1,7 @@
-#static
+# static
 For non-dynamic media that is filled in with hugo
 
-#Folders
+# Folders
 
 **/fonts** internal fonts that are downloaded/not linked to from another site
 

@@ -1,7 +1,7 @@
-#scr
+# scr
 Contains both javascript and scss files
 
-#Files
+# Files
 
 **/js/script.js** where any needed javascript should go
 
