@@ -1,7 +1,7 @@
-#Layouts
+# Layouts
 All of the html page layouts are here, they are the framework that the content/css/javascript is inserted into
 
-#Folders
+# Folders
 
 **/page** Used by hugo to create each subpage dynamically.
 
