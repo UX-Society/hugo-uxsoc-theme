@@ -1,0 +1,10 @@
+<section id="error">
+    <div class="main">
+        <p class="message">
+            {{ .Site.Params.error.message }}
+        </p>
+        <a class="escape" href=" {{ .Site.BaseURL }}">
+            {{ .Site.Params.error.link_text }}
+        </a>
+    </div>
+</section>

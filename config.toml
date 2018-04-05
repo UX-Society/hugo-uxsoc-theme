@@ -99,3 +99,8 @@ theme = "hugo-uxsoc-theme"
     title = "Get the latest <br/>updates"
     subtitle = "Sign up for our weekly newsletter"
     made_by = "Passionately made by <span class=\"footer-link\"><a href=\"\">User Experience Society</a></span>"
+
+[params.error]
+    enable = true
+    message = "404 - Not Found"
+    link_text = "Go Home"
