@@ -52,6 +52,10 @@ theme = "hugo-uxsoc-theme"
         subtitle = "EVENTS"
         title = "Coming up next"
 
+    [params.community.members]
+        enable = true
+        title = "Current Members"
+
     [params.community.stories]
         enable = true
 
@@ -66,6 +70,7 @@ theme = "hugo-uxsoc-theme"
 
     [params.community.footer]
         enable = true
+
 
 [params.work]
 

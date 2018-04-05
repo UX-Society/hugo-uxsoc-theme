@@ -17,8 +17,12 @@
 //TODO fix to match other files
 @import "_error.scss";
 
+// Community
+@import "community/members.scss";
+
 // Components
 @import "components/hero-text";
 @import "components/btn-uxsoc";
 @import "components/card-uxsoc";
 @import "components/navbar";
+@import "components/contact-card-uxsoc";
