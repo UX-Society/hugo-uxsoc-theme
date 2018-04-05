@@ -1,7 +1,6 @@
 .ccard {
   &.-home {
     >.ccard-body {
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
     }
     >.ccard-body > .card-title {
       @include rubik;
@@ -14,8 +13,10 @@
     }
   }
   &.-member {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
-    border-radius: 8px;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: solid $border-gray2;
+    border-width: 1px;
 
     .member-card {
       >.description {
@@ -34,45 +35,9 @@
           color: $black;
         }
       }
-      >.date {
-        border-left: 1px solid $border-gray;
-        >.text {
-          padding-top: 20px;
-          padding-bottom: 20px;
 
-          /* Vertical centering */
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-
-          @include proximanova;
-          font-size: ms(2);
-          color: $black;
-
-          /* Avoid positioning in component files. */
-          height: 100%;
-
-          >.bold {
-            @include rubik;
-            font-size: ms(6);
-            color: $black;
-          }
-        }
-      }
     }
 
-    >.card-footer {
-      background-color: $uxsoc-blue;
-      border-radius: 0 0 8px 8px;
-      border-color: $uxsoc-blue;
-      @include rubik;
-      font-size: ms(0);
-      color: $white;
-      text-decoration: none;
 
-      /* Avoid positioning in component files . */
-      padding-top: 35px;
-      padding-bottom: 35px;
-    }
   }
 }

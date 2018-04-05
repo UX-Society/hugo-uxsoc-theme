@@ -14188,10 +14188,6 @@ html {
   }
 }
 
-.ccard.-home > .ccard-body {
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
-}
-
 .ccard.-home > .ccard-body > .card-title {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
@@ -14205,8 +14201,10 @@ html {
 }
 
 .ccard.-member {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
-  border-radius: 8px;
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: solid #828282;
+  border-width: 1px;
 }
 
 .ccard.-member .member-card > .description {
@@ -14228,47 +14226,4 @@ html {
   font-size: 1em;
   line-height: 28px;
   color: #000;
-}
-
-.ccard.-member .member-card > .date {
-  border-left: 1px solid #bdbdbd;
-}
-
-.ccard.-member .member-card > .date > .text {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  /* Vertical centering */
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-family: 'Proxima Nova', Georgia, sans-serif;
-  font-size: 1.47016em;
-  color: #000;
-  /* Avoid positioning in component files. */
-  height: 100%;
-}
-
-.ccard.-member .member-card > .date > .text > .bold {
-  font-family: 'Rubik', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 3.17754em;
-  color: #000;
-}
-
-.ccard.-member > .card-footer {
-  background-color: #008ed4;
-  border-radius: 0 0 8px 8px;
-  border-color: #008ed4;
-  font-family: 'Rubik', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 1em;
-  color: #fff;
-  text-decoration: none;
-  /* Avoid positioning in component files . */
-  padding-top: 35px;
-  padding-bottom: 35px;
 }
