@@ -19,24 +19,23 @@
     border-width: 1px;
 
     .member-card {
-      >.description {
-        padding-top: 20px;
-        padding-bottom: 20px;
+      >.prof-cont {
+        height: 7em;
+        width: 7em;
+        overflow: hidden;
+        margin: 1em;
+        margin-left: 2em;
+        border-radius: 50%;
 
-        >.title {
-          @include rubik;
-          font-size: ms(5);
-          color: $title-color;
-        }
-        >.blurb {
-          @include proximanova;
-          font-size: ms(0);
-          line-height: 28px;
-          color: $black;
+        >.profile {
+          width: 100%;
+          margin: 0 100px 100px 0px;
         }
       }
 
     }
+
+
 
 
   }

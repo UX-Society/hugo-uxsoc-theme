@@ -14207,23 +14207,16 @@ html {
   border-width: 1px;
 }
 
-.ccard.-member .member-card > .description {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.ccard.-member .member-card > .prof-cont {
+  height: 7em;
+  width: 7em;
+  overflow: hidden;
+  margin: 1em;
+  margin-left: 2em;
+  border-radius: 50%;
 }
 
-.ccard.-member .member-card > .description > .title {
-  font-family: 'Rubik', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 2.62065em;
-  color: #20252B;
-}
-
-.ccard.-member .member-card > .description > .blurb {
-  font-family: 'Proxima Nova', Georgia, sans-serif;
-  font-size: 1em;
-  line-height: 28px;
-  color: #000;
+.ccard.-member .member-card > .prof-cont > .profile {
+  width: 100%;
+  margin: 0 100px 100px 0px;
 }
