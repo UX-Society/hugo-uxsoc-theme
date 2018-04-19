@@ -2,7 +2,6 @@ baseURL = "https://laughing-brattain-01ecb0.netlify.com/"
 languageCode = "en-us"
 title = "User Experience Society"
 theme = "hugo-uxsoc-theme"
-staticDir = "/themes/GCI/static"
 
 [params]
     theme_color = "#008ED4"
