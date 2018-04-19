@@ -14221,6 +14221,11 @@ html {
   margin: 0 100px 100px 0px;
 }
 
+.ccard.-member .prof-box {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .ccard.-member h1 {
   font-family: rubik;
   font-size: 2rem;

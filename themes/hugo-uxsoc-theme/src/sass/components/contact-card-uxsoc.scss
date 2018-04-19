@@ -27,6 +27,7 @@
         margin-left: 2em;
         border-radius: 50%;
 
+
         >.profile {
           width: 100%;
           margin: 0 100px 100px 0px;
@@ -34,8 +35,11 @@
       }
 
     }
-
-
+    
+    .prof-box {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
 
     h1 {
       font-family: rubik;
@@ -51,4 +55,5 @@
     }
 
   }
+
 }
