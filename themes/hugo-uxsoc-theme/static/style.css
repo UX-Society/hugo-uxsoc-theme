@@ -14039,6 +14039,14 @@ html {
   text-decoration: underline;
 }
 
+#members {
+  margin-top: 4rem;
+}
+
+.contacts {
+  margin-top: 3em;
+}
+
 .hero-text > .title {
   font-family: 'Rubik', sans-serif;
   font-style: normal;
@@ -14178,4 +14186,55 @@ html {
     margin-left: 6.37rem;
     margin-right: 6.37rem;
   }
+}
+
+.ccard.-home > .ccard-body > .card-title {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 2.62065em;
+  text-align: center;
+  color: #20252B;
+  /* Avoid positioning in component files. */
+  margin-bottom: 61px;
+}
+
+.ccard.-member {
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: solid #828282;
+  border-width: 1px;
+}
+
+.ccard.-member .member-card > .prof-cont {
+  height: 7em;
+  width: 7em;
+  overflow: hidden;
+  margin: 1em;
+  margin-left: 2em;
+  border-radius: 50%;
+}
+
+.ccard.-member .member-card > .prof-cont > .profile {
+  width: 100%;
+  margin: 0 100px 100px 0px;
+}
+
+.ccard.-member .prof-box {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.ccard.-member h1 {
+  font-family: rubik;
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.ccard.-member h2 {
+  font-size: proximanova;
+  font-size: 1em;
+  display: inline-block;
+  color: #bdbdbd;
 }

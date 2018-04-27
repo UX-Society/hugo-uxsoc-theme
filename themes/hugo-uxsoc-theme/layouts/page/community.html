@@ -17,6 +17,10 @@
             {{ partial "community/events.html" . }}
             {{ end }}
 
+            {{ if .Site.Params.community.members.enable }}
+            {{ partial "community/member.html" . }}
+            {{ end }}
+
             {{ if .Site.Params.community.stories.enable }}
             {{ partial "community/stories.html" . }}
             {{ end }}

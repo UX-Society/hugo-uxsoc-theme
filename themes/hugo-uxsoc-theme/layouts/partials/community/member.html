@@ -1,0 +1,37 @@
+<section class="members" id="members">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 hero-text text-center">
+                <h1 class="title">{{ .Site.Params.Community.Members.Title }}</h1>
+            </div>
+        </div>
+
+        {{ range $member := sort .Site.Data.members "weight" }}
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="ccard -member">
+                    <div class="ccard-body">
+                        <div class="row member-card">
+                            <div class="prof-cont">
+                                <img class="profile" src="/img/prof.png">
+                            </div>
+                            <div class="prof-box col-8">
+                                <div class="name">
+                                    <h1>{{ $member.name }}</h1>
+                                    <h2>{{ $member.grade }}</h2><br>
+
+                                    <h2>{{ $member.description }}</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        {{ end }}
+
+    </div>
+</section>
