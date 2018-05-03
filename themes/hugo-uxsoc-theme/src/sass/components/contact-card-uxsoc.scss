@@ -43,15 +43,23 @@
 
     h1 {
       font-family: rubik;
-      font-size: 2rem;
+      font-size: 1.8rem;
       display: inline-block;
     }
 
     h2 {
       font-size: proximanova;
-      font-size: 1em;
+      font-size: 0.8em;
       display: inline-block;
       color: $border-gray;
+    }
+
+    h2.main-sub {
+      color: black;
+    }
+
+    .no-bottom-margin {
+      margin-bottom: 0;
     }
 
   }

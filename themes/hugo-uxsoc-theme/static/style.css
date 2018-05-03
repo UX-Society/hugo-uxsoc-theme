@@ -14228,13 +14228,21 @@ html {
 
 .ccard.-member h1 {
   font-family: rubik;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: inline-block;
 }
 
 .ccard.-member h2 {
   font-size: proximanova;
-  font-size: 1em;
+  font-size: 0.8em;
   display: inline-block;
   color: #bdbdbd;
+}
+
+.ccard.-member h2.main-sub {
+  color: black;
+}
+
+.ccard.-member .no-bottom-margin {
+  margin-bottom: 0;
 }
