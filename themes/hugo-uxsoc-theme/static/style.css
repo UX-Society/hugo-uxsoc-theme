@@ -14246,3 +14246,7 @@ html {
 .ccard.-member .no-bottom-margin {
   margin-bottom: 0;
 }
+
+.ccard.-member .icon {
+  margin-right: 10px;
+}
