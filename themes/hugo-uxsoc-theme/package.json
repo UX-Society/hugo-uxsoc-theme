@@ -34,7 +34,7 @@
     "sass": "^1.0.0-beta.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
   },
   "browserify": {
     "transform": [
@@ -44,7 +44,6 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "install_hugo": "brew update && brew install hugo",
     "build": "webpack",
     "watch": "webpack --watch"
   },
