@@ -18,10 +18,15 @@
                             </div>
                             <div class="prof-box col-8">
                                 <div class="name">
-                                    <h1>{{ $member.name }}</h1>
-                                    <h2>{{ $member.grade }}</h2><br>
-
-                                    <h2>{{ $member.description }}</h2>
+                                    <h1 class="no-bottom-margin">{{ $member.name }}</h1>
+                                    <h2 class="no-bottom-margin">{{ $member.grade }}</h2><br>
+                                    <h2>{{ $member.major }}</h2>
+                                    <h2 class="main-sub">{{ $member.description }}</h2>
+                                </div>
+                                <div >
+                                    <a class="icon" href="{{ $member.mail_link }}"><img src="/img/Union.png"></a>
+                                    <a class="icon" href="{{ $member.twitter_link }}"><img src="/img/twitter-logo-silhouette.png"></a>
+                                    <a class="icon" href="{{ $member.dribble_link }}"><img src="/img/Dribbble.png"></a>
                                 </div>
                             </div>
                         </div>
