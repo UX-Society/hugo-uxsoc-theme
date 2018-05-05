@@ -27,6 +27,7 @@
     "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-standard": "^2.0.1",
     "extract-text-webpack-plugin": "^3.0.2",
+    "hugo-cli": "git+ssh://git@github.com/UXSoc/hugo-cli.git",
     "jquery": "^3.2.1",
     "modularscale-sass": "^3.0.3",
     "node-sass": "^4.5.3",
@@ -34,8 +35,7 @@
     "sass": "^1.0.0-beta.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "webpack": "^3.8.1",
-    "hugo": "file:./local_modules/hugo.tgz"
+    "webpack": "^3.8.1"
   },
   "browserify": {
     "transform": [
