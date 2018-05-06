@@ -42,10 +42,7 @@ module.exports = [{
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery',
-            'window.tether': 'tether',
-            'window.Tether': 'tether',
-            'Tether': 'tether',
-            'Popper': 'popper.js',
+            'Popper': ['popper.js', 'default'],
             'window.Popper': 'popper.js'
         }),
          new webpack.optimize.UglifyJsPlugin()
