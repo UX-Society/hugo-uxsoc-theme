@@ -46,7 +46,7 @@
     "lint": "eslint .",
     "build": "webpack",
     "watch": "webpack --watch",
-    "server": "hugo -s ../../ server --disableFastRender"
+    "server": "hugo server --disableFastRender"
   },
   "dependencies": {
     "animate.css": "^3.6.1",
