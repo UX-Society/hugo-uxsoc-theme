@@ -2720,9 +2720,8 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
 
-"hugo-cli@git+ssh://git@github.com/UXSoc/hugo-cli.git":
+"hugo-cli@file:hugo-cli":
   version "0.6.0"
-  resolved "git+ssh://git@github.com/UXSoc/hugo-cli.git#bb42f233a49a422475d7e2573fca3131054c1aff"
   dependencies:
     decompress "^4.0.0"
     mkdirp "^0.5.1"
